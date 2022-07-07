@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from '../Footer';
+import image from '../../assets/images/bitmoji.png';
 
 function About() {
    return (
      <section>
        <h1 id="about">About Me</h1>
        <div>
-        <img src="bitmoji.png" alt="profile"/>
+        <img src={image} alt="profile"/>
        </div>
        <p>
        I am an educator with a specific interest in instructional design and curriculum development.  
