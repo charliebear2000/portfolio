@@ -8,7 +8,7 @@ import Resume from './components/Resume';
 function App() {
   
   const [pages] = useState([
-    'About me',
+    'About Me',
     'Portfolio',
     'Contact',
     'Resume'
@@ -23,7 +23,7 @@ function App() {
       setCurrentPage={setCurrentPage}
       />
       <body>
-        {currentPage === 'About me' && <About />}
+        {currentPage === 'About Me' && <About />}
         {currentPage === 'Portfolio' && <Projects />}
         {currentPage === 'Contact' && <Contact />}
         {currentPage === 'Resume' && <Resume />}
