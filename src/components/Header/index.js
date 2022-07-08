@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Navigation from '../Navigation';
 
 
@@ -11,7 +11,7 @@ function Header(props) {
 
    return (
       <header>
-         <h1>
+         <h1 className="header-title">
             Amelia Rawls
          </h1>
          <Navigation
