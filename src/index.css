@@ -243,3 +243,135 @@ header {
   color: #f3ede2;
 }
 
+/* contact section */
+
+.contact-container {
+  padding: 30px 5% 5px 5%;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+}
+
+.input {
+  margin-top: 15px;
+}
+
+.contact-header {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0px 30px 0px;
+}
+
+.contact-form {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 120px;
+}
+
+.label-div {
+  width: 80px;
+}
+
+input {
+  height: 24px;
+  width: 340px;
+  border-radius: 10px;
+  background-color: #f3ede2;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-label {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 420px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #f3ede2;
+}
+
+.submit-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #f3ede2;
+  color: #24303c;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 25px;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+/* smart phones */
+
+@media screen and (max-width: 480px) {
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .link {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .about-me-content {
+    display: block;
+  }
+
+  .about-header {
+    text-align: center;
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  #photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-script {
+    padding-top: 0px;
+    text-align: justify;
+  }
+
+  .top-container {
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .project-item {
+    height: 200px;
+    width: 350px;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .project {
+    height: 180px;
+    width: 350px;
+  }
+
+  textarea {
+    width: 320px;
+  }
+
+  .list {
+    padding: 0px 10px;
+  }
+
+  .bullet-list {
+    margin: 10px;
+  }
+}
