@@ -5,55 +5,55 @@ function Projects() {
 
    return (
       <>
-         <h1 className="portfolio-header" id="portfolio-header">Portfolio</h1>
-         <div className="body-top-container" id="instructions">Click on each image to go to the live website.</div>
-         <div className="portfolio-container">
-            <div className="inner-portfolio-container">
-               <div className="portfolio-item">
-                  <a className="projects" id="project-1" href="https://github.com/ckoehler16/Cocktail-Generator">
+         <h1 className="project-header">Portfolio</h1>
+         <div className="top-container">Click on each image to go to the live website. Click on the title of each project to go to the GitHub website.</div>
+         <div className="project-container">
+            <div className="inner-project-container">
+               <div className="project-item">
+                  <a className="project" id="project-1" href="https://ckoehler16.github.io/Cocktail-Generator/">
                   </a>
-                  <a className="portfolio-link" href="https://ckoehler16.github.io/Cocktail-Generator/">
-                     Flute and Fork <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
-                  </a>
-               </div>
-
-               <div className="portfolio-item">
-                  <a className="projects" id="project-2" href="https://github.com/charliebear2000/Food-andDrink-DB">
-                  </a>
-                  <a className="portfolio-link" href="https://shrouded-gorge-64455.herokuapp.com/">
-                     The Recipe Pantry <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
+                  <a className="project-link" href="https://github.com/ckoehler16/Cocktail-Generator">
+                     Flute and Fork &emsp;<img className="icon" src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
                   </a>
                </div>
 
-               <div className="portfolio-item">
-                  <a className="projects" id="project-3" href="https://github.com/charliebear2000/budget-tracker">
+               <div className="project-item">
+                  <a className="project" id="project-2" href="https://shrouded-gorge-64455.herokuapp.com/">
                   </a>
-                  <a className="portfolio-link" href="https://salty-cove-18833.herokuapp.com/">
-                     Budget Tracker <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
-                  </a>
-               </div>
-
-               <div className="portfolio-item">
-                  <a className="projects" id="project-4" href="https://github.com/charliebear2000/java-quiz">
-                  </a>
-                  <a className="portfolio-link" href="https://charliebear2000.github.io/java-quiz/">
-                     JavaScript Quiz <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
+                  <a className="project-link" href="https://github.com/charliebear2000/Food-andDrink-DB">
+                     The Recipe Pantry &emsp;<img src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
                   </a>
                </div>
 
-               <div className="portfolio-item">
-                  <a className="projects" id="project-5" href="https://github.com/charliebear2000/Note-Taker">
+               <div className="project-item">
+                  <a className="project" id="project-3" href="https://salty-cove-18833.herokuapp.com/">
                   </a>
-                  <a className="portfolio-link" href="https://limitless-everglades-40036.herokuapp.com/">
-                     Note Taker <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
+                  <a className="project-link" href="https://github.com/charliebear2000/budget-tracker">
+                     Budget Tracker &emsp;<img src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
                   </a>
                </div>
 
-               <div className="portfolio-item">
-                  <a className="projects" id="project-6" href="https://github.com/charliebear2000/workday-scheduler">
+               <div className="project-item">
+                  <a className="project" id="project-4" href="https://charliebear2000.github.io/java-quiz/">
                   </a>
-                  <a className="portfolio-link" href="https://charliebear2000.github.io/workday-scheduler/">
-                     Workday Scheduler <br /><img src="https://img.icons8.com/metro/26/000000/github.png" />
+                  <a className="project-link" href="https://github.com/charliebear2000/java-quiz">
+                     JavaScript Quiz &emsp;<img src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
+                  </a>
+               </div>
+
+               <div className="project-item">
+                  <a className="project" id="project-5" href="https://limitless-everglades-40036.herokuapp.com/">
+                  </a>
+                  <a className="project-link" href="https://github.com/charliebear2000/Note-Taker">
+                     Note-Taker &emsp;<img src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
+                  </a>
+               </div>
+
+               <div className="project-item">
+                  <a className="project" id="project-6" href="https://charliebear2000.github.io/workday-scheduler/">
+                  </a>
+                  <a className="project-link" href="https://github.com/charliebear2000/workday-scheduler">
+                     Workday Scheduler &emsp;<img src="https://img.icons8.com/metro/26/000000/github.png" alt=""/>
                   </a>
                </div>
 

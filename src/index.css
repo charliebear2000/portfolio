@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Edu+SA+Beginner:wght@500');
+
 html {
   display: flex;
   flex-direction: column;
@@ -22,7 +24,6 @@ code {
 header {
   font-family: 'Edu SA Beginner', cursive;
   background-color: #f3ede2;
-  color: #6f7d8c;
   width: 100%;
   margin-right: 0px;
   display: flex;
@@ -33,7 +34,7 @@ header {
 .header-title {
   width: 100%;
   margin: 30px 30% 10px 0px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -42,13 +43,18 @@ header {
   justify-content: center;
   width: 100%;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
   flex-direction: row;
   text-align: center;
+  color: #6f7d8c;
 }
 
 .nav-link {
   cursor: pointer;
+}
+
+.nav-active {
+  color: #232220;
 }
 
 .link {
@@ -68,7 +74,7 @@ header {
 }
 
 .about-header {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   padding-left: 20px;
 }
@@ -79,7 +85,7 @@ header {
 }
 
 .about-script {
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 10px;
 }
 
@@ -99,7 +105,7 @@ header {
 
 .resume-container {
   padding: 30px 5% 5px 5%;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .proficiencies {
@@ -120,10 +126,120 @@ header {
 
 #resume-link {
   text-decoration: none;
-  color: #2b4b6c;
+  color: #424f5d;
   font-weight: bold;
+}
+
+#resume-link:hover {
+  color: #f3ede2;
 }
 
 .bullet-list {
   padding-left: 20px;
 }
+
+/* project section */
+
+.project-container {
+  padding: 30px 5% 5px 5%;
+  font-size: 30px;
+  display: flex;
+}
+
+.project-header {
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content:center;
+  text-align: center;
+  margin: 50px 100px 5px 100px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  font-size: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  height: 230px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #363d43;
+}
+
+.project:hover {
+  opacity: 50%;
+}
+
+.project-item {
+  margin: 50px 5% 50px 5%;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#project-1 {
+  background-image: url('./assets/images/flute-and-fork.png');
+  background-size: cover;
+}
+
+#project-2 {
+  background-image: url('./assets/images/the-recipe-pantry.PNG');
+  background-size: cover;
+}
+
+#project-3 {
+  background-image: url('assets/images/budget-tracker.png');
+  background-size: cover;
+}
+
+#project-4 {
+  background-image: url('assets/images/javascript-quiz.PNG');
+  background-size: cover;
+}
+
+#project-5 {
+  background-image: url('assets/images/note-taker.png');
+  background-size: cover;
+}
+
+#project-6 {
+  background-image: url('assets/images/workday-scheduler.png');
+  background-size: cover;
+}
+
+.project-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #24303c;
+  margin-top: 10px;
+  font-size: 25px;
+  justify-content: center;
+  display:flex;
+}
+
+.project-link:hover {
+  color: #f3ede2;
+}
+
