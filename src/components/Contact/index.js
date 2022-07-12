@@ -22,7 +22,7 @@ function ContactForm() {
             // checking if name and message has input 
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`${e.target.name} is required`);
             } else {
                 setErrorMessage('');
             }

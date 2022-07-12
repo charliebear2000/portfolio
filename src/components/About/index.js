@@ -21,7 +21,7 @@ function About() {
           <br/>
           <br/>
           I recently earned a certificate in web development from the University of Richmond with skills 
-          in HTML, CSS, JavaScript, and databases such as SQL and MongoDB. I successfully collaborated 
+          in HTML, CSS, JavaScript, Bootstrap, React, and databases such as SQL and MongoDB. I successfully collaborated 
           with a team to create a full stack web application that will store a user's recipes. During that 
           project, I used my leadership skills to help the team divide tasks and to help them troubleshoot 
           problems as they arose. I hope to leverage my teaching skills and the skills I gained in web 
