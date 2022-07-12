@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1a2304ad.css",
+    "main.js": "/portfolio/static/js/main.28d16242.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/the-recipe-pantry.PNG": "/portfolio/static/media/the-recipe-pantry.6f35fa51c8165392ff10.PNG",
+    "static/media/flute-and-fork.png": "/portfolio/static/media/flute-and-fork.1105707a15fc4c7c8c6c.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.6caf5023043913aabe92.pdf",
+    "static/media/bitmoji.png": "/portfolio/static/media/bitmoji.67bdf111921ea4ce7b7d.png",
+    "static/media/budget-tracker.png": "/portfolio/static/media/budget-tracker.a01df9c4bfcd38fcffe0.png",
+    "static/media/javascript-quiz.PNG": "/portfolio/static/media/javascript-quiz.83ecd52ab9b36b3986c3.PNG",
+    "static/media/workday-scheduler.png": "/portfolio/static/media/workday-scheduler.d5dcee2525d81f56ff5d.png",
+    "static/media/note-taker.png": "/portfolio/static/media/note-taker.16549bbd4b14f84d61da.png",
+    "index.html": "/portfolio/index.html",
+    "main.1a2304ad.css.map": "/portfolio/static/css/main.1a2304ad.css.map",
+    "main.28d16242.js.map": "/portfolio/static/js/main.28d16242.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a2304ad.css",
+    "static/js/main.28d16242.js"
+  ]
+}
