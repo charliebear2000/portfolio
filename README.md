@@ -22,7 +22,7 @@ To install this aplication, you will clone the repository from GitHub and instal
 
 The deployed application can be found on [GitHub Pages](https://https://charliebear2000.github.io/portfolio/).
 
-
+![Website Creenshot](https://github.com/charliebear2000/portfolio/blob/main/src/assets/images/screenshot.png)
 
 ## License:
 
