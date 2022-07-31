@@ -22,7 +22,7 @@ To install this aplication, you will clone the repository from GitHub and instal
 
 The deployed application can be found on [Heroku](https://amelia-rawls-portfolio.herokuapp.com/).
 
-![Website Screenshot]
+![Website Screenshot](https://github.com/charliebear2000/portfolio/blob/main/src/assets/images/screenshot.png)
 
 ## License:
 
