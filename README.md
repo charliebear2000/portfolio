@@ -20,7 +20,7 @@ To install this aplication, you will clone the repository from GitHub and instal
 
 ## Usage:
 
-The deployed application can be found on [GitHub Pages](https://charliebear2000.github.io/portfolio/).
+The deployed application can be found on [Heroku](https://amelia-rawls-portfolio.herokuapp.com/).
 
 ![Website Creenshot](https://github.com/charliebear2000/portfolio/blob/main/src/assets/images/screenshot.png)
 
