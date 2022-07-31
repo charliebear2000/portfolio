@@ -200,32 +200,32 @@ header {
 }
 
 #project-1 {
-  background-image: url('./assets/images/flute-and-fork.png');
+  background-image: url('assets/images/bistro-box.png');
   background-size: cover;
 }
 
 #project-2 {
-  background-image: url('./assets/images/the-recipe-pantry.PNG');
+  background-image: url('./assets/images/flute-and-fork.png');
   background-size: cover;
 }
 
 #project-3 {
-  background-image: url('assets/images/budget-tracker.png');
+  background-image: url('./assets/images/the-recipe-pantry.PNG');
   background-size: cover;
 }
 
 #project-4 {
-  background-image: url('assets/images/javascript-quiz.PNG');
+  background-image: url('assets/images/budget-tracker.png');
   background-size: cover;
 }
 
 #project-5 {
-  background-image: url('assets/images/note-taker.png');
+  background-image: url('assets/images/javascript-quiz.PNG');
   background-size: cover;
 }
 
 #project-6 {
-  background-image: url('assets/images/workday-scheduler.png');
+  background-image: url('assets/images/note-taker.png');
   background-size: cover;
 }
 
